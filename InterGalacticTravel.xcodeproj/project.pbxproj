@@ -14,6 +14,7 @@
 		D71900B81BEBF2A300443F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71900B61BEBF2A300443F71 /* LaunchScreen.storyboard */; };
 		D71900C31BEBF2A300443F71 /* InterGalacticTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71900C21BEBF2A300443F71 /* InterGalacticTravelTests.swift */; };
 		D71900CE1BEBF2A300443F71 /* InterGalacticTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71900CD1BEBF2A300443F71 /* InterGalacticTravelUITests.swift */; };
+		D7A094B41BED43A5009A532C /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A094B31BED43A5009A532C /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D71900C91BEBF2A300443F71 /* InterGalacticTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterGalacticTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71900CD1BEBF2A300443F71 /* InterGalacticTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterGalacticTravelUITests.swift; sourceTree = "<group>"; };
 		D71900CF1BEBF2A300443F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A094B31BED43A5009A532C /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D71900AD1BEBF2A300443F71 /* AppDelegate.swift */,
 				D71900AF1BEBF2A300443F71 /* ViewController.swift */,
 				D71900B11BEBF2A300443F71 /* Main.storyboard */,
+				D7A094B31BED43A5009A532C /* imageViewController.swift */,
 				D71900B41BEBF2A300443F71 /* Assets.xcassets */,
 				D71900B61BEBF2A300443F71 /* LaunchScreen.storyboard */,
 				D71900B91BEBF2A300443F71 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A094B41BED43A5009A532C /* imageViewController.swift in Sources */,
 				D71900B01BEBF2A300443F71 /* ViewController.swift in Sources */,
 				D71900AE1BEBF2A300443F71 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				D71900D41BEBF2A300443F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71900D51BEBF2A300443F71 /* Build configuration list for PBXNativeTarget "InterGalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D71900D71BEBF2A300443F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71900D81BEBF2A300443F71 /* Build configuration list for PBXNativeTarget "InterGalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D71900DA1BEBF2A300443F71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
